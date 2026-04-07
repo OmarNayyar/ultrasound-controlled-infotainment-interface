@@ -76,12 +76,45 @@ If no serial device is connected, the interface still opens and can be demonstra
 
 ## Screenshots
 
-Add screenshots to `assets/screenshots/` and reference them here.
+### Main Interface
 
-- Main infotainment interface
-- Incoming-call popup
-- Active-call state
-- Hardware setup or gesture demo photo
+![Main interface](assets/screenshots/home.png)
+
+Default infotainment view showing the navigation panel, media controls, and dashboard-style layout.
+
+### Media Playback
+
+![Media playback](assets/screenshots/media_playback.png)
+
+Track playback state with music controls driven through the same event flow used by keyboard and serial gesture input.
+
+### Incoming Call Simulation
+
+![Incoming call](assets/screenshots/incoming_call.png)
+
+Incoming-call popup state used to demonstrate accept and reject interactions.
+
+### Active Call State
+
+![Ongoing call](assets/screenshots/ongoing_call.png)
+
+In-call screen with timer and call actions after an incoming call is accepted.
+
+### Hardware and System Context
+
+![Hardware setup](assets/screenshots/hardware_setup.png)
+
+Prototype hardware setup used to drive the gesture-based interaction demo.
+
+![Circuit schematic](assets/screenshots/circuit_schematic.png)
+
+Circuit-level view of the embedded setup behind the interface prototype.
+
+### Final Prototype View
+
+![Final prototype](assets/screenshots/final_prototype.png)
+
+Combined project view showing the software and hardware concept as a finished course prototype.
 
 ## Project Background
 
